@@ -2,8 +2,8 @@
 cd ~/work
 rm -rf android/build
 rm -rf android/vendor/rising
-git clone https://github.com/shravansayz/android_build.git android/build
-git clone https://github.com/shravansayz/android_vendor_rising.git android/vendor/rising
+git clone https://github.com/shravansayz/android_build.git -b thirteen android/build
+git clone https://github.com/shravansayz/android_vendor_rising.git -b thirteen android/vendor/rising
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
